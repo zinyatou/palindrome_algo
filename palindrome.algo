@@ -1,0 +1,23 @@
+FUNCTION palindrome(mot) : return_string
+VAR
+    inverse = v[::-1]  
+    
+BEGIN
+    if (v == inverse):
+    print("oui c'est un palindrome")
+    // on teste le reste du mot
+    return True
+    else:
+    if (v != reverse):
+    print("non c'est pas un palindrome")
+    // on arrête
+    return False
+    // vérification du mot
+    v = saisir(("Entrez un mot: "))
+    if(check_palindrome(v)):
+    print("le mot est un palindrome")
+    else:
+    print("le mot n'est pas un palindrome")
+    END_IF
+    
+END 
